@@ -1,2 +1,22 @@
-# Auto detect text files and perform LF normalization
+content = """# Auto detect text files and perform LF normalization
 * text=auto
+
+# Web files (HTML, CSS, JS)
+*.html text
+*.css text
+*.js text
+
+# Images
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.svg text eol=lf
+
+# Documents (PDFs for enrollment and calendar)
+*.pdf binary
+"""
+
+with open(".gitattributes", "w") as f:
+    f.write(content)
+print("Created .gitattributes")
