@@ -3,7 +3,7 @@ content = """# Auto detect text files and perform LF normalization
 
 # Web files (HTML, CSS, JS)
 *.html text
-*.css tex
+*.css text
 *.js text
 
 # Images
