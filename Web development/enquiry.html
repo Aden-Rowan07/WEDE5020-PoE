@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Document character set and responsive viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry | Smithfield Primary School</title>
+    <!-- Link to the external CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header section with consistent site navigation -->
+    <header>
+        <div class="logo">
+            <h1>Smithfield Primary School</h1>
+        </div>
+        
+        <!-- Navigation menu ensuring links work correctly across the site -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Admissions</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area for the enquiry form -->
+    <main>
+        
+        <!-- Introductory section explaining the purpose of the form -->
+        <section class="enquiry-intro">
+            <h2>Community Enquiries & Support</h2>
+            <p>Smithfield Primary School thrives on the support of our local community. Whether you are looking to enroll a learner, volunteer your time for our reading programs, or become a sponsor for our sports teams, we would love to hear from you. Please fill out the form below.</p>
+        </section>
+
+        <!-- Form section for users to submit specific types of enquiries -->
+        <section class="enquiry-form-container">
+            <form action="#" method="POST" class="enquiry-form">
+                
+                <!-- Personal details fields -->
+                <fieldset>
+                    <legend>Your Details</legend>
+                    
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="emailAddress">Email Address:</label>
+                    <input type="email" id="emailAddress" name="emailAddress" required>
+
+                    <label for="phoneNumber">Phone Number (Optional):</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber">
+                </fieldset>
+
+                <!-- Enquiry details fields with a dropdown menu -->
+                <fieldset>
+                    <legend>Enquiry Information</legend>
+                    
+                    <label for="enquiryType">Type of Enquiry:</label>
+                    <!-- Dropdown to allow selection between volunteer, sponsor, or general service enquiries -->
+                    <select id="enquiryType" name="enquiryType" required>
+                        <option value="" disabled selected>Select an option...</option>
+                        <option value="volunteer">Volunteer Application</option>
+                        <option value="sponsor">Sponsorship Opportunities</option>
+                        <option value="admissions">Admissions Enquiry</option>
+                        <option value="general">General Information</option>
+                    </select>
+
+                    <label for="enquiryMessage">How can we help you or how would you like to contribute?</label>
+                    <textarea id="enquiryMessage" name="enquiryMessage" rows="6" required></textarea>
+                </fieldset>
+
+                <!-- Form submission button -->
+                <button type="submit" class="submit-btn">Submit Enquiry</button>
+                
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Standard footer section -->
+    <footer>
+        <p>&copy; 2026 Smithfield Primary School. All Rights Reserved.</p>
+        <p>Skoolstraat, Rietpoort, Smithfield, 9966, Free State</p>
+    </footer>
+
+</body>
+</html>

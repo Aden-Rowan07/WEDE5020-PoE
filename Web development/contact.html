@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Document character set and viewport configuration for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Smithfield Primary School</title>
+    <!-- Link to the external CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header section with consistent site navigation -->
+    <header>
+        <div class="logo">
+            <h1>Smithfield Primary School</h1>
+        </div>
+        
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Admissions</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area for contact information, form, and maps -->
+    <main>
+        
+        <section class="contact-intro">
+            <h2>Get in Touch</h2>
+            <p>We welcome your questions and feedback. Please use the contact details or the form below to reach out to the school administration.</p>
+        </section>
+
+        <!-- Container for the contact information and form layout -->
+        <div class="contact-container">
+            
+            <!-- Section detailing the physical and digital contact methods -->
+            <section class="contact-info">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><strong>Phone:</strong> 051-6830302</li>
+                    <li><strong>Email:</strong> admin@smithfieldps.co.za</li>
+                    <li><strong>Office Hours:</strong> Monday - Friday, 07:30 AM - 14:30 PM</li>
+                    <li><strong>Physical Address:</strong> Skoolstraat, Rietpoort, Smithfield, 9966, Free State</li>
+                </ul>
+            </section>
+
+            <!-- Contact form for direct user interaction -->
+            <section class="contact-form">
+                <h3>Send us a Message</h3>
+                <form action="#" method="POST">
+                    <!-- Name input field -->
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <!-- Email input field -->
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <!-- Subject input field -->
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <!-- Message text area -->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <!-- Submit button -->
+                    <button type="submit">Submit Message</button>
+                </form>
+            </section>
+        </div>
+
+        <!-- Section containing multiple locations as required by the assignment guidelines -->
+        <section class="locations-maps">
+            <h2>Our Locations</h2>
+            <p>Below you can find the location of our main school campus as well as our regional District Education Office.</p>
+            
+            <div class="maps-grid">
+                <!-- Location 1: Main School Campus -->
+                <article class="map-location">
+                    <h3>Smithfield Primary School</h3>
+                    <p>Skoolstraat, Rietpoort, Smithfield</p>
+                    <!-- Placeholder iframe for Google Maps integration (Location 1) -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.085!2d26.53!3d-30.21!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDEyJzM2LjAiUyAyNsKwMzEnNDguMCJF!5e0!3m2!1sen!2sza!4v1690000000000!5m2!1sen!2sza" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </article>
+
+                <!-- Location 2: District Education Office (Fulfilling the "more than 1 location" requirement) -->
+                <article class="map-location">
+                    <h3>Xhariep District Education Office</h3>
+                    <p>District Administration, Trompsburg (Serving Smithfield Region)</p>
+                    <!-- Placeholder iframe for Google Maps integration (Location 2) -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3434.5!2d25.77!3d-30.03!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAxJzQ4LjAiUyAyNcKwNDYnMTIuMCJF!5e0!3m2!1sen!2sza!4v1690000000001!5m2!1sen!2sza" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Standard footer section -->
+    <footer>
+        <p>&copy; 2026 Smithfield Primary School. All Rights Reserved.</p>
+        <p>Skoolstraat, Rietpoort, Smithfield, 9966, Free State</p>
+    </footer>
+
+</body>
+</html>
