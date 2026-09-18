@@ -38,3 +38,32 @@ This is a static HTML website and does not require a local backend server or com
 
 ## License and Copyright
 &copy; 2026 Smithfield Primary School. All Rights Reserved.
+
+PART 2 
+
+# Smithfield Primary School Website
+
+## Project Overview
+This repository contains the front-end source code for the official website of Smithfield Primary School, located in the Mohokare local municipality, Free State. The project is a fully responsive, multi-page web application built using semantic HTML5 and modern CSS3 layout techniques. 
+
+The primary goal of this project is to provide the local community with accessible information regarding admissions, school history, and contact details, while ensuring the platform functions seamlessly across mobile, tablet, and desktop devices.
+
+## Features
+* **Semantic Structure:** Built with clean, accessible HTML5 tags (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`).
+* **Responsive Layouts:** Utilizes a combination of CSS Flexbox for navigation components and CSS Grid for complex content structures (e.g., news cards, location maps).
+* **Interactive Forms:** Includes structured contact and community enquiry forms with appropriate input types and fieldsets.
+* **Embedded Maps:** Integrates Google Maps iframes to display the main school campus and regional district office.
+* **Mobile-First Adaptation:** Implements media queries to reflow multi-column grids into single-column layouts on devices narrower than 768px.
+
+## File Structure
+``text
+/
+├── index.html          # Homepage with hero image and latest announcements
+├── about.html          # School history, mission, vision, and staff profiles
+├── services.html       # Admissions information, academic phases, and uniform guidelines
+├── enquiry.html        # Community volunteer and sponsorship form
+├── contact.html        # Contact details, direct messaging form, and embedded maps
+├── css/
+│   └── styles.css      # External stylesheet containing all design and responsive logic
+├── images/             # Directory for site assets and responsive images
+└── documents/          # Downloadable PDFs (e.g., enrollment forms, calendars)
